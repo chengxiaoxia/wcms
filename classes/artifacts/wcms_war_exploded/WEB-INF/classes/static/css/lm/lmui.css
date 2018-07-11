@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/****************************************tab*****************************************/
+.lmui-menu{
+
+}
+.lmui-menu-btn{
+    height: 45px;
+    line-height: 45px;
+}
+.lmui-menu-btn a{
+    position: relative;
+    display: block;
+    height: 100%;
+    padding-left: 45px;
+    padding-right: 25px;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+.lmui-menu-btn a:hover,
+.lmui-menu-btn a:active{
+    color: #fff;
+}
+.lmui-menu-btn .lmui-menu-icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    cursor: default;
+}
+.lmui-menu-btn .lmui-menu-icon img{
+    margin-left: 20px;
+    max-width: 14px;
+    max-height: 14px;
+    vertical-align: middle;
+}
+.lmui-menu-children{
+    display: none;
+}
